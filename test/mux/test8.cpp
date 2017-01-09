@@ -276,9 +276,9 @@ int main(int argc, char **argv)
               KaxWritingApp *pApp = static_cast<KaxWritingApp*>(ElementLevel2);
               pApp->ReadData(aStream.I_O());
 #if !defined(__CYGWIN__) && !defined(__APPLE__) && !defined(__BEOS__) && !defined(__NetBSD__)
-              wprintf(L"Writing App : %ls (ιΰτο)\n", UTFstring(*pApp).c_str());
+              wprintf(L"Writing App : %ls (Γ©Γ Γ΄Γ―)\n", UTFstring(*pApp).c_str());
 #else
-              printf("Writing App : %s (ιΰτο)\n", UTFstring(*pApp).c_str());
+              printf("Writing App : %s (Γ©Γ Γ΄Γ―)\n", UTFstring(*pApp).c_str());
 #endif
             }
 

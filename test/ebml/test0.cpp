@@ -149,7 +149,7 @@ int main(void)
   ///////////////////////////////
   //   Unicode String data
   ///////////////////////////////
-  UTFstring bString = L"Stève Lhomm€";
+  UTFstring bString = L"StÃ¨ve LhommÂ€";
   EbmlUnicodeString testUStr(200);
 
   testUStr.SetID(SemanticList[4].Id, SemanticList[4].IdLength);
